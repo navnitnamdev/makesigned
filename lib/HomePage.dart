@@ -25,9 +25,9 @@ class HomePage extends StatelessWidget {
                   style: TextStyle(fontSize: 48, fontWeight: FontWeight.bold),
                 ),
               ],
+             ),
             ),
-          ),
-          floatingActionButton: FloatingActionButton(
+           floatingActionButton: FloatingActionButton(
             onPressed: () {
               // Step 4: Trigger state update
               counterProvider.increment();
