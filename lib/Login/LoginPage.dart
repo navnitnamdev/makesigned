@@ -17,6 +17,7 @@ import '../PaginationExample.dart';
 import '../PreferenceUtils/CustomElevationButton.dart';
 import '../PreferenceUtils/InternetChecker.dart';
 import '../ScreenLayoutbuilder.dart';
+import '../view/driftdb/Driftdbscreen.dart';
 import 'CommonTextField.dart';
 import 'LoginViewModel.dart';
 
@@ -198,10 +199,20 @@ final viewModel = Provider.of<LoginViewModel>(context);
                   },
                   icon: Icons.arrow_forward,
                   shadowColor: Colors.yellow,
-                ),    PrettyShadowButton(
+                ),
+
+                PrettyShadowButton(
                   label: "Screen LayoutBuilder",
                   onPressed: () {
                     Navigator.of(context).push(MaterialPageRoute(builder: (context) => ScreenLayoutBuilder ()));
+                  },
+                  icon: Icons.arrow_forward,
+                  shadowColor: Colors.yellow,
+                ),
+                PrettyShadowButton(
+                  label: "Drift db",
+                  onPressed: () {
+                    Navigator.of(context).push(MaterialPageRoute(builder: (context) => Driftdbscreen ()));
                   },
                   icon: Icons.arrow_forward,
                   shadowColor: Colors.yellow,

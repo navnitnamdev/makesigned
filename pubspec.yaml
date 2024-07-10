@@ -46,17 +46,20 @@ dependencies:
   equatable: ^2.0.3
   in_app_update: ^4.2.2
   pretty_animated_buttons: ^0.0.1
-  drift: ^2.9.0
+
   sqlite3_flutter_libs: ^0.5.0
   path_provider: ^2.0.0
   path: ^1.8.3
-  drift_dev: ^2.9.0
-  build_runner: ^2.4.5
+
+
   package_info_plus: ^5.0.1
   change_app_package_name: ^1.1.0
   skeleton_text: ^3.0.1
-dev_dependencies:
+  drift: ^2.0.0
 
+dev_dependencies:
+  drift_dev: ^2.0.0
+  build_runner: ^2.0.5
   flutter_test:
     sdk: flutter
 

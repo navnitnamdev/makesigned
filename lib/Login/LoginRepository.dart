@@ -34,8 +34,6 @@ class LoginRepository {
       } catch (e) {
         throw Exception('Failed to login');
       }
-
-
   }
 /*
    Future<String?> login(Map<dynamic, dynamic> req) async {
